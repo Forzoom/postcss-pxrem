@@ -158,7 +158,7 @@ const plugin: PluginCreator<Partial<Options & LegacyOptions>> = (options = {}) =
   const exclude = opts.exclude;
 
   return {
-    postcssPlugin: 'postcss-pxtorem',
+    postcssPlugin: 'postcss-pxrem',
     prepare() {
       let isExcludeFile = false;
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
